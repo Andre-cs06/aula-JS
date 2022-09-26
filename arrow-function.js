@@ -3,11 +3,11 @@ function apresentar(nome) {
 }
 
 //Arrow function
-const apresentarArrow = nome => `meu nome é ${nome}`;
-const soma = (num1, num2) => num1 + num2;
+// const apresentarArrow = nome => `meu nome é ${nome}`;
+// const soma = (num1, num2) => num1 + num2;
 
 // console.log(apresentar("André"));
-//console.log(soma(10, 54));
+// console.log(soma(10, 54));
 
 //Arrow funcion com mais de uma linha 
 

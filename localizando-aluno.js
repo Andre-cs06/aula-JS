@@ -12,4 +12,4 @@ const exibeNomeNota = (nomeDoAluno) => {
     }
 } 
 
-console.log(exibeNomeNota("Ana"))
+console.log(exibeNomeNota("João"))

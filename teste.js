@@ -1,12 +1,15 @@
-let nomes = ["André", "João", "Juliana", "Maria", "Julia"]
-let notas = [7, 8, 9 ,6, 5]
+const alunos = ['João', 'Juliana', 'Caio', 'Ana']
+const mediasDosAlunos = [10, 7 ,9 ,6]
 
-const nomesAtualizados = nomes.map(nome => nome.toUpperCase())
+let alunosEMedias = [alunos, mediasDosAlunos]
 
-for(let i = 0; i < nomes.length; i++){
-    //nomes[i]
-    //notas[i]
-    console.log(nomes[i], notas[i])
+const exibirNotas = (nomeDoAluno) => {
+    if(alunosEMedias[0].includes(nomeDoAluno)){
+        let indice = alunosEMedias[0].indexOf(nomeDoAluno)
+        return alunosEMedias[0][indice] + " a sua media é " + alunosEMedias[1][indice]
+    }else{
+        "Aluno não encontrado"
+    }
 }
 
-//console.log(nomesAtualizados)
+console.log(exibirNotas("João"))
